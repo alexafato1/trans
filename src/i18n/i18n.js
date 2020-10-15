@@ -12,7 +12,7 @@ i18n
    // узнать больше: https://github.com/i18next/i18next-http-backend
   .use(Backend)
   // определяем язык пользователя 
-  // узнать больше: https://github.com/i18next/i18next-browser-languageDetector . использовать ( LanguageDetector )
+  // узнать больше: https://github.com/i18next/i18next-browser-languageDetector 
   .use(LanguageDetector)
   // передаем экземпляр i18n в response-i18next.
   .use(initReactI18next)
